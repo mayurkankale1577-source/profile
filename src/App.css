@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e1ecf2 !important;
+}
+.space{
+    flex: 1;
+}
+
+/* Media Query */
+@media screen and (max-width:768px) {
+    .text1{
+        font-size: 20px;
+    }
+    
+    .name{
+      margin-right: 1rem;
+    }
+    .navbar-toggler{
+      margin-left: 1rem;
+    }
+    .para1{
+        font-size: 15px;
+    }
+    .para{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 35px;
+    }
+    @keyframes typewriter {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 93%;
+        }
+      }
+    .back{
+        margin-top: 1rem;
+    }
+    .back img{
+        border-radius: 5rem;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+    .back1 img{
+      border-radius: 5rem;
+    }
+    .vertical{
+        margin-right: 10rem;
+    }
+    
+    .card-width{
+        margin-top: 33rem;
+        padding-bottom: 4rem;
+        /* margin-left: 1rem; */
+        display: flex;
+        justify-content: center;
+    }
+    .box2{
+        width: 17rem;
+        margin-left: 1rem;
+    }
+    .vertical{
+      display: none;
+    }
+    .box{
+      margin-right: 4rem;
+    }
+    .box1{
+      margin-right: 4rem;
+    }
+    .end{
+      display: none;
+    }
+    .progress.blue{
+      margin-left: 5rem;
+    }
+    .fields{
+      display: flex;
+      justify-content: center;
+    }
+    .card1{
+      margin-top: 2rem;
+    }
+}
