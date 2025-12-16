@@ -326,46 +326,54 @@
   text-align: center;
 }
 
-/* Portfolio Section */
-.card1 img{
-    border-radius: 2rem;
-    box-shadow: 1rem 1rem 0.5rem grey;
-}
-.card1 {
-    position: relative;
+.faShowOnMob
+{
+  display: none;
 }
 
-.image {
-    width: 100%;
-    height: auto;
+.direction
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-  
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008bbaf5;
-    overflow: hidden;
-    width: 100%;
-    height:100%;
-    transition: .3s ease;
-    transform: scale(0);
-    border-radius: 2rem;
+
+ 
+
+@media screen and (max-width:768px) {
+  .columnReverse
+  {
+    flex-direction: column-reverse;
+  }
+
+  .faShowOnMob
+{
+  display: flex;
 }
-  
-.card1:hover .overlay {
-    transform: scale(1);
+.fahideOnMob
+{
+  display: none;
 }
-  
-.name1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Lobster', cursive;
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+
+.education1 
+{
+  align-items: center;
 }
+
+.headingfive
+{
+  text-align: center;
+}
+
+.progress.blue
+{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.navbar-nav a:hover {
+  background-color: red !important;
+  border-radius: 0rem;
+}
+}
+ 

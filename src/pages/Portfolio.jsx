@@ -5,14 +5,14 @@ function Portfolio() {
   return (
     <>
     <div id="portfolio" className="container">
-      <h1 className="text-center about mt-5">
+      <h1 className="text-center about mt-3 mt-sm-5">
         <span className="text-dark">Live</span>Projects
       </h1>
 
       <div className="row">
 
         <div className="col-md-4">
-          <div className="card1 mt-5">
+          <div className="card1 mt-3 mt-sm-5">
             <a
               href="https://imaxexcellenceawards.imax.com/"
               target="_blank"
@@ -137,14 +137,14 @@ function Portfolio() {
 
 
     <div id="portfolio" className="container">
-      <h1 className="text-center about mt-5">
+      <h1 className="text-center about mt-3 mt-sm-5">
         <span className="text-dark">Staging</span>Projects
       </h1>
 
       <div className="row">
         
         <div className="col-md-4">
-          <div className="card1 mt-5">
+          <div className="card1 mt-3 mt-sm-5">
             <a
               href="https://movie-explorer-ten-sage.vercel.app/"
               target="_blank"
